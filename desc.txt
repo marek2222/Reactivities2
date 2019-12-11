@@ -1,0 +1,31 @@
+
+6: Create GitRepository on GitHub or another:
+  with name: Reactivities2
+
+    mkdir Reactivities2
+    cd Reactivities2
+
+    dotnet -h
+    dotnet new -h
+
+  Solution and library:
+    dotnet new sln
+
+    dotnet new classlib -n Domain
+    cd Domain
+    dir
+    cd ..
+
+    dotnet new classlib -n Application
+
+    dotnet new classlib -n Persistance
+
+    dotnet new webapi -n API
+
+  // Not do it:
+  // An update for template pack Microsoft.DotNet.Web.ProjectTemplates.3.0::3.0.0 is available.
+  //  install command: dotnet new -i Microsoft.DotNet.Web.ProjectTemplates.3.0::3.0.1
+
+
+    
+
