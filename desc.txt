@@ -61,5 +61,8 @@
     
 
 ----------------------------------------
-8. Reviewing the Project files
+2.8. Reviewing the Project files
+
+----------------------------------------
+2.9. Running the application
 
