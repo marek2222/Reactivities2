@@ -27,5 +27,39 @@
   //  install command: dotnet new -i Microsoft.DotNet.Web.ProjectTemplates.3.0::3.0.1
 
 
+----------------------------------------
+7. Creating the project references using the DotNet CLI
+    dotnet sln -h
+    dotnet sln add Domain
+    dotnet sln add Application
+    dotnet sln add Persistance
+    dotnet sln add API
+
+    dotnet sln list
+    -- output
+        Projekty
+        --------
+        Domain\Domain.csproj
+        Application\Application.csproj
+        Persistance\Persistance.csproj
+        API\API.csproj
+
+    cd Application\
+    dotnet add reference ..\Domain\
+    dotnet add reference ..\Persistance\
+
+    cd ..
+    cd API\
+    dotnet add reference ..\Application\
+
+    cd ..
+    cd Persistance\
+    dotnet add reference ..\Domain\
+
+    cd ..  -> to Reactivities2
+    code
     
+
+----------------------------------------
+8. Reviewing the Project files
 
