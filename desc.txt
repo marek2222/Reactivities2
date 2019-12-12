@@ -64,5 +64,10 @@
 2.8. Reviewing the Project files
 
 ----------------------------------------
-2.9. Running the application
+2.9. Running the application 
+  - on localhost:5000
+    dotnet run -- not doing
+    dotnet run -p API/
+    
+
 
