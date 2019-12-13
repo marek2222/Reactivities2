@@ -168,7 +168,14 @@
   - let's install client-app in Reactivities2 by 
     npx create-react-app client-app --use-npm --typescript
 
-  - after install
+  - or copy client-app folder to Reactivities2 and run:
+    npm install
+
+  After install you can run client-app by:
+    cd client-app
+    npm start
+
+  
 
 
 
