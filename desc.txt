@@ -156,3 +156,23 @@
 ----------------------------------------
 2.18. Section 2 summary
 
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+3.19. Section 3 introduction
+
+
+----------------------------------------
+3.20.  Using create-react-app to create our React application
+  - let's install client-app in Reactivities2 by 
+    npx create-react-app client-app --use-npm --typescript
+
+  - after install
+
+
+
+
+
+
+
