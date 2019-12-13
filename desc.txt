@@ -124,8 +124,35 @@
       this._context = context;
     }
 
+
 ----------------------------------------
 2.16. Introduction to Postman
 
+
 ----------------------------------------
 2.17. Saving our changes into Source control using Git
+  - in Reactivities2:
+    git status
+    git init
+    git add .
+    git commit -m "Initial Commit"
+
+  - If you want to use the GitHub repository
+    1. create a new GitHub repository  
+    2. or create a new repository on the command line
+      echo "# GitRepositoryName" >> README.md
+      git init
+      git add README.md
+      git commit -m "first commit"
+      git remote add origin https://github.com/marek2222/GitRepositoryName.git
+      git push -u origin master
+
+
+    1.Push an existing repository from the command line in VS Code
+      git remote add origin https://github.com/marek2222/GitRepositoryName.git
+      git push -u origin master
+
+
+----------------------------------------
+2.18. Section 2 summary
+

@@ -17,9 +17,11 @@
 .env.development.local
 .env.test.local
 .env.production.local
+appsettings.json
 *.db
 *.db-shm
 *.db-wal
+
 
 # Build results
 [Dd]ebug/
