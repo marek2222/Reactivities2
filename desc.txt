@@ -126,5 +126,6 @@
 
 ----------------------------------------
 2.16. Introduction to Postman
-    
 
+----------------------------------------
+2.17. Saving our changes into Source control using Git
