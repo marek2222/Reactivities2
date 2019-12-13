@@ -89,3 +89,17 @@
   - in Reactivities2: 
     dotnet ef migrations add InitialCreate -p Persistance/ -s API
 
+
+----------------------------------------
+2.13. Creating the database
+
+    dotnet ef -h
+
+    -- watch run should be run in project directory
+    cd API
+    dotnet watch run
+
+    By F1 (CommandPalete) and write: SQLite: Open database
+    and choose our db: reactivities2.db
+    You can show all tables of the db in the bottom left near Outline.
+     
