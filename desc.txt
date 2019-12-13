@@ -179,10 +179,15 @@
 ----------------------------------------
 3.21.  Reviewing the React project files
 
+3.22. Introduction to React - Concepts  
+
+3.23. Introduction to React - Components
+
+3.24. Introduction to Typescript
 
 
-  
-
+----------------------------------------
+3.25. Typescript basics demo
 
 
 

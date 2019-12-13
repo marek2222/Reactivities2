@@ -1,8 +1,6 @@
-import React, { Component } from 'react';
-import { Header, Icon, List } from 'semantic-ui-react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import axios from 'axios';
 
 const App: React.FC = () => {
   return (
