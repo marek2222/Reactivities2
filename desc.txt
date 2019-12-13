@@ -103,3 +103,9 @@
     and choose our db: reactivities2.db
     You can show all tables of the db in the bottom left near Outline.
      
+----------------------------------------
+2.14. Seeding data using Entity Framework fluent configuration
+  - add SeedValues method to DataContext
+  - in Reactivities2:
+    dotnet ef migrations add SeedValues -p Persistance/ -s API
+  - open SQLite: Open database and choose our db: reactivities2.db
