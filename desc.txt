@@ -76,3 +76,16 @@
 
 ----------------------------------------
 2.11. Creating the DbContext and service
+
+
+----------------------------------------
+2.12. Adding our first Entity Framework code first migration
+  - in Reactivities2:
+    dotnet tool install --global dotnet-ef --version 3.0.0
+  
+  - in API.csproj:
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.0"/>
+
+  - in Reactivities2: 
+    dotnet ef migrations add InitialCreate -p Persistance/ -s API
+
