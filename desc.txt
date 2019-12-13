@@ -109,3 +109,18 @@
   - in Reactivities2:
     dotnet ef migrations add SeedValues -p Persistance/ -s API
   - open SQLite: Open database and choose our db: reactivities2.db
+
+
+----------------------------------------
+2.15. Using Dependancy Injection
+  - write word 'private' in Preferences/Settings/User
+    Add a '_' sign to prefix for generated private member declarations
+
+  - I initialize Field From Parameter to take this effect.
+ 
+    private readonly DataContext _context;
+    public ValuesController(DataContext context)
+    {
+      this._context = context;
+    }
+
