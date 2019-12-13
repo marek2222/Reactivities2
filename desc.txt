@@ -175,6 +175,12 @@
     cd client-app
     npm start
 
+
+----------------------------------------
+3.21.  Reviewing the React project files
+
+
+
   
 
 
