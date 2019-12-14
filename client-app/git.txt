@@ -1,0 +1,4 @@
+git status
+git add 
+git commit -m "Reactivities2: Apl 3.32.  "
+git push -u origin master
