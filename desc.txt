@@ -185,9 +185,20 @@
 
 3.24. Introduction to Typescript
 
-
 ----------------------------------------
 3.25. Typescript basics demo
+
+3.26. Using Typescript with React
+
+3.27. Adding React dev tools
+
+----------------------------------------
+3.28. React Class Components
+
+
+----------------------------------------
+3.29. 
+
 
 
 
