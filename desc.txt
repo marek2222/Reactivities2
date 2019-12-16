@@ -219,16 +219,22 @@
 3.33. Clean up and saving our code to source control
 
 
-----------------------------------------
-3.34. 
 
 
 ----------------------------------------
-4.35. 
+----------------------------------------
+----------------------------------------
+4.35. Building a CRUD application in .Net Core 
+      using the CQRS + Mediator pattern
 
 
 ----------------------------------------
-4.36. 
+4.36. Adding the Activity entity
+  - in Reactivities2:
+    dotnet ef migrations add ActivityEntityAdded -p Persistance -s API
+    
+    cd API\
+    dotnet watch run
 
 
 ----------------------------------------

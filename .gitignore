@@ -42,3 +42,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 /client-app/node_modules.7z
+/API/reactivities2.db
