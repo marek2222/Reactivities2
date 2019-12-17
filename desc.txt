@@ -253,9 +253,8 @@
     dotnet add package MediatR.Extensions.Microsoft.DependencyInjection --version 7.0.0
 
 
-
 ----------------------------------------
-4.41. 
+4.41. Creating the Activities API Controller
 
 
 ----------------------------------------
