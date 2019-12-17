@@ -242,16 +242,21 @@
     cd API\
     dotnet watch run
 
-
-----------------------------------------
 4.38. Commands and Queries - CQRS
 
-
-----------------------------------------
 4.39. Introduction to MediatR
 
 
 ----------------------------------------
-4.40. 
+4.40. Creating our first Query handler
+  - in Reactivities2\Application:    
+    dotnet add package MediatR.Extensions.Microsoft.DependencyInjection --version 7.0.0
 
 
+
+----------------------------------------
+4.41. 
+
+
+----------------------------------------
+4.42. 
