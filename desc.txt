@@ -258,4 +258,10 @@
 
 
 ----------------------------------------
+  - in Reactivities2\API:
+    dotnet add package Swashbuckle.AspNetCore --version 4.0.1
+    dotnet add package Swashbuckle.AspNetCore.Swagger --version 5.0.0-rc5
+
+
+----------------------------------------
 4.42. 
