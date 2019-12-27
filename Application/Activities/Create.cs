@@ -20,7 +20,6 @@ namespace Application.Activities
       public string Venue { get; set; }
     }
 
-
     // Implement Interface for: IRequestHandler<>
     // generate constructor for: Handler by ctor
     // Inictalize field from parameter for context in Handler(DataContext context)
@@ -32,28 +31,27 @@ namespace Application.Activities
         _context = context;
       }
 
-      public async Task<Unit> Handle(Command request, 
-        CancellationToken cancellationToken)
+      public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
       {
         var activity = new Activity
-				{
-					Id = request.Id,
-					Title = request.Title,
-					Description = request.Description,
-					Category = request.Category,
-					Date = request.Date,
-					City = request.City,
-					Venue = request.Venue
-				};
+        {
+          Id = request.Id,
+          Title = request.Title,
+          Description = request.Description,
+          Category = request.Category,
+          Date = request.Date,
+          City = request.City,
+          Venue = request.Venue
+        };
 
-				_context.Activities.Add(activity);
-				var success = await _context.SaveChangesAsync() > 0;
+        _context.Activities.Add(activity);
+        var success = await _context.SaveChangesAsync() > 0;
 
-				if (success) return Unit.Value;
+        if (success) return Unit.Value;
 
-				throw new Exception("Problem saving changes");
+        throw new Exception("Problem saving changes");
       }
     }
-
   }
 }
+
