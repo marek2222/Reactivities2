@@ -263,17 +263,28 @@
     dotnet add package Swashbuckle.AspNetCore.Swagger --version 5.0.0-rc5
 
 
-
 ----------------------------------------
 4.42. Adding the Details Handler
 
+4.43. Cancellation Tokens
+
 
 ----------------------------------------
-4.43. 
+4.44.  Adding the Create handler
+  - testing Create method (HttpPost) in Swagger
+    {
+      "title": "Test Create Activity",
+      "description": "Description of the test",
+      "category": "Culture",
+      "date": "2019-10-17T09:46:25.143937",
+      "city": "London",
+      "venue": "Nothing"
+    }
 
 
 ----------------------------------------
 4.44. 
 
-
+----------------------------------------
+4.44. 
 
