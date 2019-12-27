@@ -3,7 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Domain;
 using MediatR;
-using Persistance;
+using Persistence;
 
 namespace Application.Activities
 {
@@ -32,7 +32,8 @@ namespace Application.Activities
         _context = context;
       }
 
-      public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
+      public async Task<Unit> Handle(Command request, 
+        CancellationToken cancellationToken)
       {
         var activity = new Activity
 				{
