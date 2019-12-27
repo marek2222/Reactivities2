@@ -283,7 +283,9 @@
 
 
 ----------------------------------------
-4.44. 
+4.45.  Dealing with boilerplate code in our handlers
+    https://snippet-generator.app
+
 
 ----------------------------------------
 4.44. 
