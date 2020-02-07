@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Header, Icon, List } from "semantic-ui-react";
 import axios from "axios";
-import "./App.css";
 
 export default class App extends Component {
 	state = {
@@ -22,7 +21,7 @@ export default class App extends Component {
 			<div>
 				<Header as="h2">
 					<Icon name="users" />
-					<Header.Content>Reacivities2</Header.Content>
+					<Header.Content>Reacivities</Header.Content>
 					<List>
 						{this.state.values.map((value: any) => (
 							<List.Item key={value.id}>{value.name}</List.Item>

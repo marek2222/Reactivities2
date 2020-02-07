@@ -294,3 +294,27 @@
 ----------------------------------------
 4.47. Adding a Delete handler
 
+
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Sekcja 5: Building a CRUD application in React
+
+
+----------------------------------------
+5.51. Folder structure in React
+  Neil use folders by feature: 
+
+  - add 3 folders in client_app\src: 
+    'app', and inside this add folder: 'layout' 
+    'feature'
+  - remove: 'App.css', 'App.test.tsx'
+  - The 'App.tsx' move inside the layout folder
+  - rename 'index.css' to 'styles.css' and remove to the layout folder
+  - The 'logo.svg' can be removed 
+  
+  
+----------------------------------------
+5.52. Getting a list of activities from the API
+
