@@ -320,5 +320,6 @@ Sekcja 5: Building a CRUD application in React
 
 ----------------------------------------
 5.53. Adding an Activity interface in Typescript
+    If you use Typescript you can see the tips with Intellisens
 
 
