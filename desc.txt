@@ -314,7 +314,11 @@ Sekcja 5: Building a CRUD application in React
   - rename 'index.css' to 'styles.css' and remove to the layout folder
   - The 'logo.svg' can be removed 
   
-  
+
 ----------------------------------------
 5.52. Getting a list of activities from the API
+
+----------------------------------------
+5.53. Adding an Activity interface in Typescript
+
 
